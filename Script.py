@@ -224,7 +224,14 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/ownergodupdate">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/ownergodupdate">[ ᴏᴡɴᴇʀɢᴏᴅ ]</a></b>"""
+    CAPTION = """<blockquote><a href='https://t.me/ownergodupdate'>{file_name}</a></blockquote>
+
+<blockquote>═══════════════════════
+➜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 @ownergodupdate
+➜ 𝐌𝐨𝐯𝐢𝐞𝐬 @searchmoviestoken
+➜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 @requestMoviesgrou
+➜ 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 @primiumtoken
+═══════════════════════</blockquote>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
