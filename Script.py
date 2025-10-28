@@ -1,5 +1,6 @@
 class script(object):
-    START_TXT = """<b><u>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</u></b>
+    START_TXT = """<b><u>Hᴇʟʟᴏ 💖
+Iɴғɪɴɪᴛʏ Is Pᴏᴡᴇʀғᴜʟʟ Mᴏᴠɪᴇs ʙᴏᴛ</u></b>
 
 <b>ʜᴇʏ {}, {}</b>
 
