@@ -99,17 +99,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('🎁 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🎁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('ϟ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ϟ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                ],[
-                    InlineKeyboardButton(' 🎬 ɢʀᴏᴜᴘ 🎬', url=f'http://t.me/'),
-                    InlineKeyboardButton('🎥 ᴄʜᴀɴɴᴇʟ 🎥', url=f'http://t.me/'),
+                    InlineKeyboardButton(' ϟ Gʀᴏᴜᴘ ϟ ', url=f'http://t.me/searchmoviestoken'),
+                    InlineKeyboardButton('ϟ Cʜᴀɴɴᴇʟ ϟ', url=f'http://t.me/ownergodupdate'),
                 ],[
                 ],[
-                    InlineKeyboardButton(' 🛠️ʜᴇʟᴘ 🛠️', callback_data='help'),
-                    InlineKeyboardButton(' 📝ᴀʙᴏᴜᴛ 📝', callback_data='about')
+                    InlineKeyboardButton(' ϟ Hᴇʟᴘ ϟ ', callback_data='help'),
+                    InlineKeyboardButton(' ϟ Aʙᴏᴜᴛ ϟ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🍿ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ 🍿', callback_data="topsearch"),
-                    InlineKeyboardButton('✨ᴜᴘɢʀᴀᴅᴇ ✨', callback_data="premium_info"),
+                    InlineKeyboardButton('ϟ Tᴏᴘ Sᴇᴀʀᴄʜɪɴɢ ϟ', callback_data="topsearch"),
+                    InlineKeyboardButton('ϟ Uᴘɢʀᴀᴅᴇ ϟ', callback_data="premium_info"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
